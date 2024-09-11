@@ -1,139 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurant</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!----Navbar & Hero Section Starts---->
 
-    <div class="container-xxl position-relative p-0">
-      <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-4 py-3 py-lg-0"
-      >
-        <a href="" class="navbar-brand p-0">
-          <h1 class="text-warning m-0"><i class="fa fa-utensils me-3"></i></h1>
-        </a>
-        <button class="navbar-toggler" type="submit">
-          <span class="fa fa-bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ms-auto py-0 pe-4">
-            <a href="" class="nav-item nav-link active">Home</a>
-            <a href="" class="nav-item nav-link">About</a>
-            <a href="" class="nav-item nav-link">Service</a>
-            <a href="" class="nav-item nav-link">Menu</a>
-            <a href="" class="nav-item nav-link">Contact</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!----Navbar & Hero Section Starts---->
+
+  <div class="container-xxl position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-4 py-3 py-lg-0">
+      <a href="" class="navbar-brand p-0">
+        <h1 class="text-warning m-0"><i class="fa fa-utensils me-3"></i></h1>
+      </a>
+      <button class="navbar-toggler" type="submit">
+        <span class="fa fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0 pe-4">
+          <a href="" class="nav-item nav-link active">Home</a>
+          <a href="" class="nav-item nav-link">About</a>
+          <a href="" class="nav-item nav-link">Service</a>
+          <a href="" class="nav-item nav-link">Menu</a>
+          <a href="" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container-xxl py-5 bg-dark hero-header mb-5">
+      <div class="container py-5 my-5">
+        <div class="row algin-items-center g-5">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-3 text-white animated sliderInLeft">
+              Enjoy Our <br />Delicious Meal
+            </h1>
+            <p class="text-white animated slideInLeft mb-4 pb-2">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consectetur sapiente veniam vero eveniet ducimus similique
+              repellendus minima tempore aperiam commodi.
+            </p>
+            <a href="" class="btn btn-warning py-sm-3 px-sm-5 slideInLeft">Our Menu</a>
+          </div>
+          <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+            <img src="hero.png" width="700px" class="img-fluid" alt="" />
           </div>
         </div>
-      </nav>
-      <div class="container-xxl py-5 bg-dark hero-header mb-5">
-        <div class="container py-5 my-5">
-          <div class="row algin-items-center g-5">
-            <div class="col-lg-6 text-center text-lg-start">
-              <h1 class="display-3 text-white animated sliderInLeft">
-                Enjoy Our <br />Delicious Meal
-              </h1>
-              <p class="text-white animated slideInLeft mb-4 pb-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Consectetur sapiente veniam vero eveniet ducimus similique
-                repellendus minima tempore aperiam commodi.
+      </div>
+    </div>
+  </div>
+  <!----Navbar & Hero Section Ends---->
+  <!----Service Section Starts---->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="service-item border rounded pt-3">
+            <div class="p-4">
+              <i class="fa fa-3x fa-user-tie text-warning mb-4"> </i>
+              <h5>Master Chefs</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
+                minima.
               </p>
-              <a href="" class="btn btn-warning py-sm-3 px-sm-5 slideInLeft"
-                >Our Menu</a
-              >
-            </div>
-            <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-              <img src="/hero.png" width="800px" class="img-fluid" alt="" />
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!----Navbar & Hero Section Ends---->
-    <!----Service Section Starts---->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-4">
-          <div class="col-lg-3 col-sm-6 wow fadeInUp" daata-wow-delay="0.1s">
-            <div class="service-item rounded pt-3">
-              <div class="p-4">
-                <i class="fa fa-3x fa-user-tie text-warning mb-4"> </i>
-                <h5>Master Chefs</h5>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
-                  minima.
-                </p>
-              </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="service-item border rounded pt-3">
+            <div class="p-4">
+              <i class="fa fa-3x fa-utensils text-warning mb-4"> </i>
+              <h5>Quality Food</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
+                minima.
+              </p>
             </div>
           </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="service-item border rounded pt-3">
+            <div class="p-4">
+              <i class="fa fa-3x fa-cart-plus text-warning mb-4"> </i>
+              <h5>Online Order</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
+                minima.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="service-item border rounded pt-3">
+            <div class="p-4">
+              <i class="fa fa-3x fa-headset text-warning mb-4"> </i>
+              <h5>24/7 Service</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
+                minima.
+              </p>
+            </div>
+          </div>
+        </div>
 
-          <div class="col-lg-3 col-sm-6 wow fadeInUp" daata-wow-delay="0.1s">
-            <div class="service-item rounded pt-3">
-              <div class="p-4">
-                <i class="fa fa-3x fa-utensils text-warning mb-4"> </i>
-                <h5>Quality Food</h5>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
-                  minima.
-                </p>
-              </div>
+      </div>
+    </div>
+  </div>
+  <!----Service Section Ends---->
+  <!----About  Section Starts---->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5 algin-items-center">
+        <div class="col-lg-6 ">
+          <div class="row g-3">
+            <div class="col-6 text-start">
+              <img class="img-gluid rounded w-100 wow zoomIn" src="g1.jpg" alt="grid-1" />
+            </div>
+            <div class="col-6 text-start">
+              <img class="img-gluid rounded w-75 wow zoomIn" style="margin-top:25%" src="g2.jpg" alt="grid-1" />
+            </div>
+            <div class="col-6 text-end">
+              <img class="img-gluid rounded w-75 wow zoomIn" src="g3.jpg" alt="grid-1" />
+            </div>
+            <div class="col-6 text-start">
+              <img class="img-gluid rounded w-100 wow zoomIn" src="g4.jpg" alt="grid-1" />
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 wow fadeInUp" daata-wow-delay="0.1s">
-            <div class="service-item rounded pt-3">
-              <div class="p-4">
-                <i class="fa fa-3x fa-cart-plus text-warning mb-4"> </i>
-                <h5>Online Order</h5>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
-                  minima.
-                </p>
+        </div>
+        <div class="col-lg-6">
+          <h5 class="section-title ff-secondary text-start text-warning fw-normal">About Us</h5>
+          <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-warning me-2"></i>Restaurant</h1>
+          <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt culpa odio ex doloremque
+            deleniti temporibus alias iure cum laborum eaque?</p>
+          <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores ducimus officiis sed
+            architecto nemo, natus provident! Temporibus ullam, voluptatibus doloremque reiciendis consectetur cum minus
+            iste voluptatum doloribus mollitia earum! Eaque.</p>
+          <div class="row g-4 mb-4">
+            <div class="col-sm-6">
+              <div class="d-flex algin-items-center border-start border-5 border-warning px-3">
+                <h1 class="flex-shrink-0 dispaly-5 text-warning mb-0">15</h1>
+                <div class="ps-4">
+                  <p class="mb-0">Years of</p>
+                  <h6 class="text-uppercase mb-0">Experience</h6>
+                </div>
               </div>
             </div>
+            <div class="col-lg-6">
+              <div class="d-flex algin-items-center border-start border-5 border-warning px-3">
+                <h1 class="flex-shrink-0 dispaly-5 text-warning mb-0">50</h1>
+                <div class="ps-4">
+                  <p class="mb-0">Popular</p>
+                  <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                </div>
+              </div>
+            </div>
+
           </div>
-          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="service-item rounded pt-3">
-              <div class="p-4">
-                <i class="fa fa-3x fa-headset text-warning mb-4"> </i>
-                <h5>24/7 Service</h5>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
-                  minima.
-                </p>
+          <a href="" class="btn btn-warning py-3 px-5 mt-2">
+            Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----About Section Ends---->
+  <!---- Menu Section Starts---->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <h5 class="section-title ff-secondary  text-center text-warning fw-normal">
+          Food Menu
+        </h5>
+        <h1 class="mb-5">Most popular Items</h1>
+      </div>
+
+    </div>
+    <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+      <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+        <li class="nav-item">
+          <a href="" class="d-flex algin-items-center text-start mx-3 pb-3">
+            <i class="fa fa-hamburger fa-2x text-warning"></i>
+            <div class="ps-3">
+              <small class="text-body">Special</small>
+              <h6 class="mt-n1 mb-0">Lunch</h6>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="d-flex algin-items-center text-start mx-3 pb-3">
+            <i class="fa fa-utensils fa-2x text-warning"></i>
+            <div class="ps-3">
+              <small class="text-body">Lovly</small>
+              <h6 class="mt-n1 mb-0">Dinner</h6>
+            </div>
+          </a>
+        </li>
+
+
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane fade show p-0 active">
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div class="d-flex algin-items-center">
+                <img src="g5.jpg" class=" flex-shrink-0 img-fluid rounded w-25" alt="" />
+                <div class="h-100 d-flex flex-column text-start ps-4">
+                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Chicken Burger</span>
+                    <span class="text-warning">$100</span>
+                  </h5>
+                  <small class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
+                    velit!</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="d-flex algin-items-center">
+                <img src="g1.jpg" class=" flex-shrink-0 img-fluid rounded w-25" alt="" />
+                <div class="w-100 d-flex flex-column text-start ps-4">
+                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Chicken Burger</span>
+                    <span class="text-warning">$100</span>
+                  </h5>
+                  <small class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
+                    velit!</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="d-flex algin-items-center">
+                <img src="g5.jpg" class=" flex-shrink-0 img-fluid rounded w-25" alt="" />
+                <div class="h-100 d-flex flex-column text-start ps-4">
+                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Chicken Burger</span>
+                    <span class="text-warning">$100</span>
+                  </h5>
+                  <small class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
+                    velit!</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="d-flex algin-items-center">
+                <img src="g1.jpg" class=" flex-shrink-0 img-fluid  rounded w-25" alt="" />
+                <div class="w-100 d-flex flex-column text-start ps-4">
+                  <h5 class="d-flex justify-content-between border-bottom pb-2">
+                    <span>Chicken Burger</span>
+                    <span class="text-warning">$100</span>
+                  </h5>
+                  <small class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
+                    velit!</small>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+  <!----Menu Section Ends---->
+
+</body>
+
 </html>
